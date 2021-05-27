@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Drawing Area</string>
+    <string name="paint">paint</string>
+    <string name="eraser">eraser</string>
+    <string name="save_text">СОХРАНИТЬ</string>
+    <string name="new_list_text">НОВЫЙ ЛИСТ</string>
+    <string name="menu_text">menu</string>
+    <string name="back_text">Back</string>
+</resources>

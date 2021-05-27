@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/back"
+        android:icon="@drawable/back"
+        android:title="@string/back_text"
+        app:showAsAction="ifRoom" />
+
+
+    <item android:icon="@drawable/menu"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_text">
+        <menu >
+            <item android:id="@+id/save"
+                android:title="@string/save_text"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/clear"
+                android:title="@string/new_list_text"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>
